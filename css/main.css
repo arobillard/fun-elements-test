@@ -1,0 +1,33 @@
+:root {
+  --color-primary: #4c3abd;
+  --color-secondary: #777;
+  --font-primary: "Open Sans", sans-serif;
+  --font-secondary: "Oswald", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1, h2, h3, .font-secondary {
+  font-family: var(--font-secondary);
+}
+
+.banner {
+  /* height: 600px; */
+  overflow: hidden;
+  /* position: relative; */
+}
+
+.overflow-container {
+  overflow: hidden;
+  transform: rotate(6deg);
+  /* position: absolute;
+  left: 50%;
+  top: 68%; */
+  /* width: 132%; */
+}
+
+.overflow-container img {
+  transform: rotate(-6deg);
+}
